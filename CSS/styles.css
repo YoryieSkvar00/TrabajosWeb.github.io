@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+}
+.container .menu{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+}
+.container .menu .opciones ul{
+    display: flex;
+    border: 1px solid #000;
+    width: 300px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.container .menu .opciones ul li{
+    list-style: none;
+    color: black;
+    font-size: 2rem;
+}
