@@ -7,16 +7,24 @@
 
 }
 .container .menu{
-    border: 1px solid #000;
+    background-color: #00d7fdbd;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.container .menu .logo{
+    border: 1px solid #000;
+    width: 200px;
+    padding: 20px;
+}
+.container .menu .opciones{
+    width: 55%;
 }
 .container .menu .opciones ul{
     display: flex;
     border: 1px solid #000;
-    width: 300px;
     padding: 10px;
     justify-content: space-between;
+    margin-right: 20px;
 }
 .container .menu .opciones ul li{
     list-style: none;
